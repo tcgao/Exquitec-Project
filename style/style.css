@@ -171,17 +171,16 @@ a {
 .footer-content{
   background-color: rgba(0, 0, 0, 0.6); 
     background: semi-transparent black;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.087);
     margin: 0 auto;
     margin-top: 0 auto;
     padding: 100px;
     color: rgb(255, 255, 255);
-    width: 200%;
+    width: 90%;
     height: 70%;
-    border-radius: 10px;
-    border: #f5f5f536 2px solid;
-    /* border-top: 5px solid rgb(109, 3, 125); */
-    /* border-bottom: 5px solid rgb(228, 206, 6); */
-    max-width: 900px;
+    border-radius: 15px;
+    border: #f5f5f573 2px solid;
+    /* max-width: 900px; */
    
 }
 
