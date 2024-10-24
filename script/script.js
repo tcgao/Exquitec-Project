@@ -15,7 +15,6 @@ document.addEventListener('click', (e) => {
 });
 
 
-
 const hamburger = document.querySelector('.hamburger');
 const hamburgerButton = document.querySelector('.hamburger-button');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
