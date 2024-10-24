@@ -1,0 +1,97 @@
+/* Footer Container */
+.footer-container {
+  background-color: #ad2020;
+  padding: 40px 20px;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Content Grid */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Brand Section */
+.footer-brand h2 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-brand .dot {
+  color: green;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #931a1a;
+}
+
+.footer-brand a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-brand a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-links h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-links ul li a:hover {
+  color: rgb(232, 232, 21);
+}
+
+/* Social Icons Section */
+.footer-socials h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Copyright Section */
+.footer-copyright {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: rgba(224, 231, 226, 0.05);
+  border-radius: 10px;
+}
+
+.footer-copyright p {
+  font-size: 14px;
+  color: #fffcfc;
+}
