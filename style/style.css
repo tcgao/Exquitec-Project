@@ -43,3 +43,156 @@ a {
     color: grey;
     margin: auto 5px;
 }
+
+.hero {
+    background: url('https://img.freepik.com/free-photo/industrial-designers-working-3d-model_23-2149370169.jpg?uid=R63328520&ga=GA1.1.1370676899.1722375250&semt=ais_hybrid/1200x600') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: rgb(219, 219, 219);
+    
+  }
+  .hero-text{
+    background-color: rgba(0, 0, 0, 0.6); 
+    background: semi-transparent black;
+    margin: 0 auto;
+    margin-top: 250px;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40%;
+    border-top: 5px solid rgb(109, 3, 125);
+    /* border-bottom: 5px solid rgb(228, 206, 6); */
+    max-width: 700px;
+   
+  }
+  
+  .hero-text h1 {
+    font-size: 2.0rem;
+    color: rgb(14, 205, 29);
+    margin-top: 10px;
+    margin-left: 10px ;
+    /* margin-bottom: 6px; */
+  }
+
+  .hero-text p{
+    margin-left: 10px ;
+    margin-bottom: 15px;
+  }
+
+
+  .hero button{
+    padding: 9px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid rgb(14, 205, 29);
+    border-radius: 20px;
+    align-content: center;
+    
+    font-weight: 600;
+}
+
+  .readmore-button { 
+    text-decoration: none;
+    color: rgb(198, 1, 1);
+    /* margin-top: 8px; */
+    margin-left: 250px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    
+  }
+  
+    /* transition: all 0.2s ease; */
+/* } */
+.readmore-button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.readmore-button:hover {
+     background-color: rgb(14, 205, 29); 
+     color: white;
+    transform: scale(1) 
+}
+  
+  
+
+
+
+
+  
+  /* Services Section */
+  .services {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: lightgrey;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: rgb(58, 3, 55);
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+.footer-content{
+  background-color: rgba(0, 0, 0, 0.6); 
+    background: semi-transparent black;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    padding: 100px;
+    color: rgb(255, 255, 255);
+    width: 200%;
+    height: 70%;
+    border-radius: 10px;
+    border: #f5f5f536 2px solid;
+    /* border-top: 5px solid rgb(109, 3, 125); */
+    /* border-bottom: 5px solid rgb(228, 206, 6); */
+    max-width: 900px;
+   
+}
+
+
+  .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  
+
+
+
