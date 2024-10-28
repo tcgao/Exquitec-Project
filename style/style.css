@@ -187,7 +187,7 @@ li {
         border-bottom-right-radius: 10px;
         overflow: hidden;
     }
-
+    
     @media screen and (max-width: 740px) {
         .hamburger-menu {
             left: -20%;
@@ -220,6 +220,7 @@ li {
 
 /* Header style ends here */
 
+<<<<<<< HEAD
 
 .hero {
     background: url('https://img.freepik.com/free-photo/industrial-designers-working-3d-model_23-2149370169.jpg?uid=R63328520&ga=GA1.1.1370676899.1722375250&semt=ais_hybrid/1200x600') no-repeat center center/cover;
@@ -539,3 +540,324 @@ li {
 }
 
 /* Style for Activities page ends here */
+=======
+/* Main */
+/* main header */
+#contact {
+background-image: url(/images/exquitec_education_technology_cover.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+box-sizing: content-box;
+}
+
+#contact h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #000;
+    text-align: center;
+    padding: 165px;
+}
+
+#contact p  {
+    margin: 50px 0 30px 5px;
+    font-weight: bold;
+} 
+
+#contact a {
+    color: #000;
+    font-size: 30px;
+}
+
+#contact a:hover{
+    background-color: #800080;
+    color: #fff;
+}
+
+/* Contact form section */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    color: #800080;
+}
+
+a:hover{
+    background-color: #800080;
+    color: #fff;
+}
+
+.la a:hover {
+    background-color: #800080;
+    color: #fff;
+}
+
+.contact-form {
+    width: 45%;
+    padding: 20px;
+    box-shadow: 10px 10px  15px #000;
+    border-radius: 5px;
+    background-color: rgb(5, 242, 234);
+}
+
+.contact-info {
+    width: 45%;
+    padding: 20px;
+    background: linear-gradient(to left, purple 0%, rgb(5, 242, 234));
+    box-shadow: 10px 10px  15px #000;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.contact-form h2,
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    background: linear-gradient(to left, purple 0%,rgb(5, 242, 234));
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info fieldset {
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.whatsapp-button:hover {
+background-color: #128C7E;
+}
+
+/* Footer */
+footer a {
+    color: #fff;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 9.5px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+}
+
+ @media (max-width: 1024px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+} 
+
+.contact-form, .contact-info { 
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact-form, .contact-info {
+        width: 100%;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 1rem;
+    }
+
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+
+    #contact h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 10px;
+    }
+
+    .contact-form, .contact-info {
+        width: 100%;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    #contact h1 {
+        font-size: 50px;
+    }
+}
+
+/* Our Programs style */
+#programs {
+    background-image: url(/images/bp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: content-box;
+}
+
+#programs h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    padding: 165px;
+}
+
+#programs p  {
+    margin: 50px 0 30px 5px;
+    font-weight: bold;
+}
+
+#programs a {
+    color: #fff;
+    font-size: 20px;
+}
+
+  /* Program Grid Layout */
+.program-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to left, purple 0%, rgb(5, 242, 234));
+}
+  
+.program-card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 3, 10);
+    transition: transform 0.3s;
+}
+  
+.program-card:hover {
+    transform: scale(1.05);
+}
+  
+.program-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.card-content {
+    margin:40% 0;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+  
+.card-content h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+ }
+  
+.card-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+  /* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .program-grid {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+}
+  
+#programs h1 {
+    font-size: 40px;
+}
+    .card-content h3 {
+      font-size: 1em;
+    }
+}
+  
+ @media (max-width: 480px) {
+    .program-grid {
+      grid-template-columns:(1, 1fr);
+      gap: 10px;
+    }
+  
+    #programs h1 {
+        font-size: 40px;
+    }
+
+    .card-content h3 {
+      font-size: 0.9em;
+    }
+}
+>>>>>>> 81b2903 (update changes)
