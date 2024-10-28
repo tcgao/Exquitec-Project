@@ -356,7 +356,7 @@ li {
 
 /* Style for contact us page starts here */
 #contact {
-    background-image: url(/Exquitec-Project/images/exquitec_education_technology_cover.jpeg);
+    background-image: url(/images/exquitec_education_technology_cover.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -408,7 +408,7 @@ li {
 .contact-form {
     width: 45%;
     padding: 20px;
-    box-shadow: 10px 10px  15px #000;
+    box-shadow: 5px 5px  10px #000;
     border-radius: 5px;
     background-color: rgb(5, 242, 234);
 }
@@ -556,7 +556,7 @@ footer {
 
 /* Style for Programs page start here */
 #programs {
-    background-image: url(/Exquitec-Project/images/bp.jpg);
+    background-image: url(/images/bp.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
