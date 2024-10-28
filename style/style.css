@@ -393,20 +393,17 @@ li {
     background-color: #f1f1f1;
 }
 
-a {
+#link  {
     text-decoration: none;
     color: #800080;
 }
 
-a:hover{
-    background-color: #800080;
-    color: #fff;
-}
+#link:hover{ 
+        background-color: #800080;
+        color: #fff;
+    }   
+ 
 
-.la a:hover {
-    background-color: #800080;
-    color: #fff;
-}
 
 .contact-form {
     width: 45%;
@@ -582,6 +579,12 @@ footer {
 #programs a {
     color: #fff;
     font-size: 20px;
+}
+
+#programs a:hover,  
+.program-grid a:hover {
+    background-color: #800080;
+    color: #fff;
 }
 
   /* Program Grid Layout */
