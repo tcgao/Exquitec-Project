@@ -94,7 +94,7 @@ li {
 
 .dropdown-button:focus + .dropdown-menu {
     display: block;
-  }
+}
 
 .dropdown :active {
     display: block;
@@ -206,7 +206,7 @@ li {
     
     .hamburger-button:focus + .hamburger-menu {
         display: block;
-      }
+    }
     
     
     .hamburger-button:hover {
