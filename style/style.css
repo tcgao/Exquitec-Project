@@ -844,6 +844,20 @@ footer {
     color: #8f877f;
 }
 
+.act-whatsapp-button {
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    background-color: #18bb53;
+    color: #fff;
+    padding: 0.5% 0.8%;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    box-shadow: #0000003a 4px 4px 8px;
+}
+
 .activities-footer {
     padding: 20px;
     bottom: 0;
