@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bigdiv {
+    background-color: purple;
+    width: max-content;
+    padding: 0 0 40px 40px;
+    margin: 80px;
+    height: 85vh;
+    width: 30vw;
+    position: relative;
+}
+
+.bigdiv div {
+    bottom: 20px;
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+}
