@@ -370,7 +370,7 @@ li {
     text-decoration: none;
     font-weight: bold;
     border-radius: 100px;
-    border-style: dotted;
+
     transition: background-color 0.3s ease;
   }
   
@@ -378,7 +378,66 @@ li {
     background-color: rgb(109, 3, 125);
     
   }
+  /* Body image placement here */
+
+  .bigdiv {
+    background-color: rgb(109, 3, 125);
+    width: max-content;
+    padding: 0 0 40px 40px;
+    margin: 80px;
+    height: 85vh;
+    width: 30vw;
+    position: relative;
   
+
+}
+
+.bigdiv div {
+    bottom: 20px;
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+}
+  .bigdiv img {
+    transform: translateX(-50%);
+    animation: movement 3s infinite;
+  }
+@keyframes movement {
+    0% {
+        transform: translateY(0) ; 
+        margin-top: 90px;
+   
+    }
+    50% {
+        transform: translateY(10px);
+        margin-top: 90px;
+    }
+    100% {
+        transform: translateY(0);
+        margin-top: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .services-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -389,7 +448,7 @@ li {
     background-color: #fff;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, );
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.111);
     text-align: center;
     transition: transform 0.3s ease;
   }
