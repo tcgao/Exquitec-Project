@@ -942,14 +942,14 @@ li {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+
     }
-    
     .mid-section img {
         padding: 40px 10px;
         height: 470px;
         width: 490px;
     }
-
+    
     .activities-flexdiv-1 {
         /* display: flex;
         justify-content: space-between; */
@@ -1016,9 +1016,95 @@ li {
 
 /* Style for Activities page ends here */
 
+<<<<<<< HEAD
 /* Style for gallery page starts here */
 
 
 
 
 /* Style for gallery page ends here */
+=======
+/* Style for services page starts here */
+
+
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(25, 16, 27)), url(../images/man.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    color: white;
+    padding: 1em;
+    width: 20%;
+    text-align: left;
+}
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-content: center;
+    
+}
+
+.services-content > div {
+    width: 25%;
+    margin: 10px;
+}
+
+/* .service1 {
+    width: 0%;
+} */
+
+/* .service h2 { */
+    /* color: #3aafa9; */
+
+.service ul {
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.bulb2{
+    background: white;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 50%;
+    position: absolute;
+    top: 95%;
+    left: 81%;
+ }
+
+ .working-hours li {
+    margin: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .working-hours li :nth-child(2) {
+    margin-left: 20px;
+    font-size: 14px;
+ }
+
+ .working-hours hr {
+    color: rgba(155, 154, 154, 0.904);
+    width: 90%;
+    margin: 0 auto;
+ }
+
+ .feature-list li{
+    display: flex;
+    gap: 15px;
+ }
+ .feature-list span {
+    font-size: 0.9em;
+    align-items: left;
+ }
+
+/* Style for services page ends here */
+>>>>>>> c4c19d6c0a7fd61937c02e3502d8075b3ad66504
