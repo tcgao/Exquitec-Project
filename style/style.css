@@ -1059,6 +1059,16 @@ li {
 .content-container3 h2{
     text-align: center;
 }
+.img a:hover {
+    transform: scale(1.1);
+    color: black;
+    transition: color 0.3s;
+    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+    
+}
 .dot {
     width: 10px;
     height: 10px;
