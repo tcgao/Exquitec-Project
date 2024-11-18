@@ -1022,6 +1022,123 @@ li {
 
 /* Style for Activities page ends here */
 
+/* Style for about us starts here */
+
+
+body {
+    
+    background-image: url(/images/gallery-image-9.jpg );
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter:blur(3px);
+   
+    
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+hr {
+  
+    border-color: purple;
+
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.content_img img {
+    min-width: 50%;
+    border-radius:7px; 
+    margin-right: 100px;
+    margin-bottom:30% ;
+    width:600px; 
+    height: 400px;
+    
+    
+}
+.content_text {
+    width: 45%;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: rgba(252, 255, 255, 0.378);
+    
+    
+    
+}
+.content .first_p  {
+   display: inline-block;
+   justify-content: left;
+   
+}
+ 
+.content_img  {
+  transition: transform 2s ease-out;
+}
+
+.content_img  {
+    transform: scale(1.2);
+    
+}  
+
+
+
+p a {
+    text-decoration: solid;
+    font-weight: bold;
+}
+a:hover {
+    color:rgb(97, 181, 181);
+}
+ @media (max-width:1200px ) {
+
+    body {
+   align-items: center;
+}
+
+    .content {
+
+    flex-direction: column;
+    text-align: center;
+}
+
+.content_text {
+    width:100%;
+    padding: 0;
+}
+
+.content_text {
+   padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.content_img {
+    transition: 2s ease-out;
+    
+}
+.content_img {
+    transform: scale(1.1);
+}
+.content_img  img{
+    height: 250px;
+    width: 330px;
+    margin: auto;
+    
+    
+}
+
+
+} 
+
 
 /* Style for services page starts here */
 
