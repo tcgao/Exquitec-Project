@@ -270,8 +270,10 @@ li {
 
 /* Footer style ends here */
 
+    /* Header/Hero stuling code starts here */
 .hero {
-    background: url('https://img.freepik.com/free-photo/industrial-designers-working-3d-model_23-2149370169.jpg?uid=R63328520&ga=GA1.1.1370676899.1722375250&semt=ais_hybrid/1200x600') no-repeat center center/cover;
+    background-image: url(/images/headerimg.png);
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -351,43 +353,26 @@ li {
     gap: 40px;
   }
   
-  
-  .intro-text {
+
+  .intro-text1 {
     max-width: 500px;
   }
   
-  .intro-text h1 {
+  .intro-text1 h1 {
     margin-top: 20px;
     font-size: 36px;
     margin-bottom: 20px;
     color: #000000;
   }
   
-  .intro-text p {
+  .intro-text1 p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
     color: #000000;
   }
-  
-  .btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: rgb(3, 125, 9);
-    box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 100px;
 
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: rgb(109, 3, 125);
-    
-  }
-  /* Body image placement here */
+
 
   .bigdiv {
     background-color: rgb(109, 3, 125);
@@ -439,14 +424,101 @@ li {
 
 
 
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(3, 125, 9);
+    box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 16px;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgb(109, 3, 125);
+    
+  }
 
+  .intro-text {
+    max-width: 500px;
+  }
+  
+  .intro-text h1 {
+    margin-top: 20px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .intro-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(3, 125, 9);
+    box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 16px;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgb(109, 3, 125);
+    
+  }
+  /* Body image placement here */
 
+  .bigdiv {
+    background-color: rgb(109, 3, 125);
+    width: max-content;
+    padding: 0 0 40px 40px;
+    margin: 80px;
+    height: 85vh;
+    width: 30vw;
+    position: relative;
+  
 
+}
 
+.bigdiv div {
+    bottom: 20px;
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+}
+  .bigdiv img {
+    transform: translateX(-50%);
+    animation: movement 3s infinite;
+  }
+@keyframes movement {
+    0% {
+        transform: translateY(0) ; 
+        margin-top: 90px;
+   
+    }
+    50% {
+        transform: translateY(10px);
+        margin-top: 90px;
+    }
+    100% {
+        transform: translateY(0);
+        margin-top: 90px;
+    }
+}
 
-
-
-
+/* Style for services page starts here */
   .services-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
