@@ -21,7 +21,15 @@ header {
     position: sticky;
     top: 0;
     z-index: 9999;
+    width: 100%;
 }
+
+/* @media screen and (max-width: 950px) {
+    body {
+        overflow-x: hidden;
+        clear: both;
+    }
+} */
 
 
 
@@ -192,6 +200,16 @@ li {
         .hamburger-menu {
             left: -20%;
         }
+
+        header img {
+            width: 200px;
+        }
+
+        header {
+            justify-content: safe;
+            padding: 0 !important;
+            clear: both;
+        }
     }
     
     .hamburger-menu li {
@@ -243,6 +261,7 @@ li {
         padding: 0.75% 1.7%;
         text-align: center;
         font-size: 35px;
+        z-index: 9999;
     }
 }
 
@@ -266,6 +285,17 @@ li {
 
 .footer p :nth-child(2) {
     color: red;
+}
+
+@media screen and (max-width: 950px) {
+    .footer {
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .footer p {
+        text-align: center;
+    }
 }
 
 /* Footer style ends here */
@@ -426,7 +456,7 @@ li {
 
 /* Style for contact us page starts here */
 #contact {
-    background-image: url(/images/exquitec_education_technology_cover.jpeg);
+    background-image: url(/images/background-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -439,6 +469,7 @@ li {
         color: #000;
         text-align: center;
         padding: 165px;
+        text-shadow: 1px 1px 0 black;
     }
     
     #contact p  {
@@ -452,8 +483,7 @@ li {
     }
     
     #contact a:hover{
-        background-color: #800080;
-        color: #fff;
+        color: #ccc;
     }
 
 .contact-container {
@@ -538,6 +568,15 @@ li {
     border-right: transparent;
 }
 
+#link3 {
+    color: #fff;
+}
+
+#link:hover3 {
+    color: #fff;
+    background-color: #18bb53;
+}
+
  @media (max-width: 1024px) {
     .contact-container {
         flex-direction: column;
@@ -607,19 +646,8 @@ li {
     color: #fff;
     text-align: center;
     padding: 165px;
-}
-
-#programs p  {
-    margin: 50px 0 30px 5px;
-    font-weight: bold;
-}
-
-#programs a {
-    color: #fff;
-    font-size: 20px;
-}
-
-#programs a:hover,  
+    text-shadow: 3px 3px 0 black;
+} 
 .program-grid a:hover {
     background-color: #800080;
     color: #fff;
@@ -678,6 +706,7 @@ li {
     font-weight: bold;
     margin-bottom: 10px;
     color: #fff;
+    text-shadow: 3px 3px 0 black;
  }
   
 .card-content a {
@@ -719,6 +748,12 @@ li {
 
 
 /* Style for Activities page starts here */
+
+.activities-body {
+    max-width: 100%;
+    clear: both;
+    overflow-x: hidden;
+}
 
 .top-section {
     background-color: rgba(0,32,80,255);
@@ -787,7 +822,7 @@ li {
 .mid-section {
     padding: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -797,7 +832,6 @@ li {
 
 .activities-flexdiv-1 {
     display: flex;
-    justify-content: space-between;
     align-items: center
 }
 
@@ -882,21 +916,22 @@ li {
     color: #8f877f;
 }
 
-@media screen and (max-width: 1050px) {
+/* Media query for activities page */
+
+@media screen and (max-width: 950px) {
     .activities-body {
         max-width: 100%;
     }
 
     .top-section {
         background-color: rgba(0,32,80,255);
-        height: 50vh;
+        height: 40vh;
         top: 0;
-        padding: 40px;
-        align-content: end;
+        align-content: center !important;
     }
 
     .top-div-title {
-        font-size: 60px;
+        font-size: 50px;
         margin: 10px 0;
         font-family: serif;
         color: white;
@@ -912,8 +947,6 @@ li {
         font-size: 30px;
         color: rgba(22,82,127,255);
         font-weight: 500;
-        /* font-family: Times, 'Times New Roman', serif;
-        margin-bottom: 10px; */
         padding: 0;
     }
     
@@ -928,8 +961,41 @@ li {
 
     .mid-section {
         padding: 20px;
-        /* display: flex; */
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .mid-section img {
+        padding: 0 !important;
+        height: 300px !important;
+        width: 320px !important;
+        align-items: center;
+        margin: 20px auto;
+    }
+    
+    .activities-flexdiv-1 {
+        align-items: normal;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .activities-flexdiv-2-container {
+        margin: 10px;
+        width: fit-content;
+        height: max-content !important;
+    }
+
+    .act-01 :first-child {
+        word-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .mid-section {
+        padding: 20px;
         justify-content: space-between;
         align-items: center;
     }
@@ -941,22 +1007,11 @@ li {
     }
 
     .activities-flexdiv-1 {
-        /* display: flex;
-        justify-content: space-between; */
         align-items: normal;
-        flex-direction: column;
-        flex-wrap: nowrap;
     }
-
-    /* .activities-flexdiv-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    } */
 
     .activities-flexdiv-2-container {
         margin: 10px;
-        width: 95%;
         height: max-content !important;
     }
 
@@ -1031,9 +1086,7 @@ hr {
     transform: scale(1.2);
     
 }  
- .content_text {
-    
- }
+
 
 
 p a {
@@ -1044,9 +1097,7 @@ a:hover {
     color:rgb(97, 181, 181);
 }
  @media (max-width:1200px ) {
-header {
-    m-width: 100%;
-}
+
     body {
    align-items: center;
 }
@@ -1087,3 +1138,171 @@ header {
 
 
 } 
+
+
+/* Style for services page starts here */
+
+
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(25, 16, 27)), url(../images/man.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.service {
+    color: white;
+    padding: 1em;
+    width: 20%;
+    text-align: left;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+    margin: 50px 0;
+}
+
+.content-container3 img{
+    width: 100%;
+}
+.content-container3 h2{
+    text-align: center;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+   /* Media Query  */
+@media (max-width: 786px) {
+    .content-container{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .text-content{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+  /* Style Girls in tech page ends here  */
+  /* Style for Digital citizenship starts here */
+  .head_1 {
+    justify-items: center;
+    background-image: url(/images/DIGIT.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 3px 3px 0 black;
+    font-size: 60px;
+}
+.our {
+    margin-top: 50px;
+}
+.our a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px 0 black;
+}
+.our a:hover {
+    color: rgba(180, 246, 180, 0.58);
+}
+.emb {
+    justify-items: center;
+    margin-top: 20px;
+}
+.cont {
+    position: relative;
+    display: flex;
+    align-self: center;
+    width: auto;
+    height: 300px;
+    margin-top: 20px;
+}
+.tex {
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 82%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.cont img {
+    width: 82%;
+    height: 100%;
+    background-color: white;
+    margin-left: 11%;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.cont:hover .tex {
+    opacity: 1;
+}
+.cont:hover img {
+    opacity: 0;
+    transform: scale(1.1);
+}
+@media screen and (max-width: 900px) {
+    .cont img{
+    width: 85%;
+    height: 100%;
+    margin-left: 12%;
+}
+.tex {
+    margin-left: 12%;
+}
+.head_1 {
+font-size: 30px;
+}
+}
+ /* Style for Digital citizenship ends here */
+
+ .working-hours li {
+    margin: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .working-hours li :nth-child(2) {
+    margin-left: 20px;
+    font-size: 14px;
+ }
+
+ .working-hours hr {
+    color: rgba(155, 154, 154, 0.904);
+    width: 90%;
+    margin: 0 auto;
+ }
+
+ .feature-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 14.5px;
+    color: rgb(82, 81, 81);
+ }
+
+ .feature-list span {
+    font-size: 0.9em;
+    align-items: left;
+ }
+
+
+/* Style for services page ends here */
