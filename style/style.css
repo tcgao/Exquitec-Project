@@ -1100,6 +1100,123 @@ li {
 
 /* Style for Activities page ends here */
 
+/* Style for about us starts here */
+
+
+body {
+    
+    background-image: url(/images/gallery-image-9.jpg );
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter:blur(3px);
+   
+    
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+hr {
+  
+    border-color: purple;
+
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.content_img img {
+    min-width: 50%;
+    border-radius:7px; 
+    margin-right: 100px;
+    margin-bottom:30% ;
+    width:600px; 
+    height: 400px;
+    
+    
+}
+.content_text {
+    width: 45%;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: rgba(252, 255, 255, 0.378);
+    
+    
+    
+}
+.content .first_p  {
+   display: inline-block;
+   justify-content: left;
+   
+}
+ 
+.content_img  {
+  transition: transform 2s ease-out;
+}
+
+.content_img  {
+    transform: scale(1.2);
+    
+}  
+
+
+
+p a {
+    text-decoration: solid;
+    font-weight: bold;
+}
+a:hover {
+    color:rgb(97, 181, 181);
+}
+ @media (max-width:1200px ) {
+
+    body {
+   align-items: center;
+}
+
+    .content {
+
+    flex-direction: column;
+    text-align: center;
+}
+
+.content_text {
+    width:100%;
+    padding: 0;
+}
+
+.content_text {
+   padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.content_img {
+    transition: 2s ease-out;
+    
+}
+.content_img {
+    transform: scale(1.1);
+}
+.content_img  img{
+    height: 250px;
+    width: 330px;
+    margin: auto;
+    
+    
+}
+
+
+} 
+
 
 /* Style for services page starts here */
 
@@ -1230,6 +1347,76 @@ font-size: 30px;
 }
  /* Style for Digital citizenship ends here */
 
+ /* Style for services page starts here */
+
+
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(25, 16, 27)), url(../images/man.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    color: white;
+    padding: 1em;
+    width: 20%;
+    text-align: left;
+}
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-content: center;
+    
+}
+
+.services-content > div {
+    width: 100%;
+    margin: 10px;
+}
+
+/* .service1 {
+    width: 0%;
+} */
+
+/* .service h2 { */
+    /* color: #3aafa9; */
+
+.service ul {
+    list-style-type: none;
+    line-height: 1.8;
+}
+.service-image{
+    max-width:100px;
+    height:auto;
+    border-radius:50%;
+    z-index:1000;
+    position:absolute;
+    left:35%;
+    top:103%;
+}
+.service-image2{
+    max-width:100px;
+    height:100px;
+    z-index:1000;
+    position:absolute;
+    left:58%;
+    top:103%;
+}
+
+.bulb2{
+    background: white;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 50%;
+    position: absolute;
+    top: 103%;
+    left: 81%;
+ }
+
  .working-hours li {
     margin: 10px;
     font-size: 15px;
@@ -1250,23 +1437,23 @@ font-size: 30px;
     margin: 0 auto;
  }
 
- .feature-list li {
+ .feature-list li{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 15px;
-    margin: 15px 0;
-    font-size: 14.5px;
-    color: rgb(82, 81, 81);
  }
-
  .feature-list span {
     font-size: 0.9em;
     align-items: left;
  }
-
+ @media screen  and (max-width: 900px) {
+    .services-content {
+        display: block;
+        width: 100%;
+    }
+ }
 
 /* Style for services page ends here */
+
 
 /* Style for Gallery page starts here */
 
