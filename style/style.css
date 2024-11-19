@@ -302,6 +302,7 @@ li {
 
 /* Footer style ends here */
 
+
     /* Header/Hero stuling code starts here */
 .hero {
     background-image: url(/images/headerimg.png);
@@ -356,7 +357,6 @@ li {
     color: rgb(198, 1, 1);
     margin-left: 250px;
     padding: 10px 20px;
-    font-weight: bold;
     border: none;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
@@ -372,6 +372,85 @@ li {
      color: white;
     transform: scale(1) 
 }
+
+    /* header style media query start here */
+    @media screen and (max-width: 600px) {
+        .hero {
+            background-image: url(/images/headerimg.png);
+            height: 400px !important;
+            width: 400px !important;
+            align-items: center;
+            margin: 0  auto;
+        }
+
+        .hero-text{ 
+            background-color:rgba(0, 0, 0, 0.6); 
+            margin-bottom: 100px;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            width: 85%;
+            height: 45%;
+            border-top: 5px solid rgb(109, 3, 125);
+            max-width: 700px;
+            padding: 0px;
+        }
+
+        .hero-text h1 {
+            font-size:large;
+            color: rgb(14, 205, 29);
+            margin-bottom: 20px;
+            margin-left: 10px ;
+            margin-top: 20px;
+        }
+        
+        .hero-text p{
+            font-size: 70%;
+            margin-left: 10px ;
+            margin-bottom: 15px;
+            /* margin-top: 0px; */
+        }
+        
+        .hero button{
+            padding: 2px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 100;
+            border: 2px solid rgb(14, 205, 29);
+            border-radius: 20px;
+            margin-left: 105px; 
+            
+            
+        }
+        
+        .readmore-button { 
+            text-decoration: none;
+            color: rgb(198, 1, 1);
+            padding: 10px 20px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.6);
+        } 
+          
+        .readmore-button a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        
+        .readmore-button:hover {
+             background-color: rgb(14, 205, 29); 
+             color: white;
+            transform: scale(1) 
+        }
+        
+        
+        } 
+
+    /* header style media query ends here */
+
+
+
+
  
 /* Index page start here  */
 
@@ -1082,19 +1161,7 @@ li {
 }
 
 @media screen and (max-width: 700px) {
-    /* header {
-        display: none;
-    }
-
-    .top-section {
-        display: none;
-    }
-
-    .activities-text {
-        display: none;
-    } */
-
-    .mid-section {
+        .mid-section {
         padding: 10px !important;
     }
 
@@ -1231,7 +1298,7 @@ li {
 
 /* Style for Activities page ends here */
 
-/* Style for about us starts here */
+/* Style for  us starts here */
 
 
 .container {
