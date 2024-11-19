@@ -1312,31 +1312,31 @@ font-size: 30px;
     line-height: 1.8;
 }
 .service-image{
-    max-width:100px;
-    height:auto;
-    border-radius:50%;
-    z-index:1000;
-    position:absolute;
-    left:35%;
-    top:103%;
-}
-.service-image2{
+    background: white;
+    /* padding: 1%; */
+    border-radius: 50%;
     max-width:100px;
     height:100px;
-    z-index:1000;
-    position:absolute;
-    left:58%;
-    top:103%;
+    margin: 0 auto;
+    align-self: center;
+}
+.service-image2{
+    background: white;
+    /* padding: 1%; */
+    border-radius: 50%;
+    max-width:100px;
+    height:100px;
+    margin: 0 auto;
+    align-self: center;
 }
 
 .bulb2{
     background: white;
-    display: inline-block;
-    padding: 1%;
+    /* padding: 1%; */
     border-radius: 50%;
-    position: absolute;
-    top: 103%;
-    left: 81%;
+    max-width:100px;
+    height:100px;
+    margin: 0 auto;
  }
 
  .working-hours li {
@@ -1367,11 +1367,7 @@ font-size: 30px;
     font-size: 0.9em;
     align-items: left;
  }
- @media screen  and (max-width: 900px) {
-    .services-content {
-        display: block;
-        width: 100%;
-    }
+ @media screen and (max-width: 950px) {
+    
  }
-
 /* Style for services page ends here */
