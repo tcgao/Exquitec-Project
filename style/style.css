@@ -26,15 +26,6 @@ header {
     max-width: 100%;
 }
 
-/* @media screen and (max-width: 950px) {
-    body {
-        overflow-x: hidden;
-        clear: both;
-    }
-} */
-
-
-
 .menu {
     display: flex;
     justify-content: space-between;
@@ -172,8 +163,6 @@ li {
     overflow: hidden;
 }
 
-
-
 @media only screen and (max-width: 950px) {
     .menu {
         display: none;
@@ -253,6 +242,10 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 50%;
     box-shadow: #0000003a 4px 4px 8px;
+}
+
+#wa :hover, #wa :active {
+    color: white !important;
 }
 
 @media screen and (max-width: 950px) {
@@ -549,8 +542,7 @@ li {
     color: #333;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-form input, .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -846,6 +838,8 @@ li {
 
 .mid-section img {
     padding: 70px 20px;
+    width: 80vw;
+    height: 100vh;
 }
 
 .activities-flexdiv-1 {
@@ -973,7 +967,6 @@ li {
         width: 300px !important;
         align-items: center;
         margin: 20px auto;
-        display: none;
     }
     
     .activities-flexdiv-1 {
@@ -1067,6 +1060,26 @@ li {
     }
 }
 
+@media screen and (max-width: 1050px) {
+    .mid-section img {
+        padding: 40px 10px;
+        height: 500px;
+        width: 700px;
+    }
+
+    .activities-flexdiv-1 {
+        align-items: normal;
+        flex-direction: column;
+        /* flex-wrap: nowrap; */
+    }
+
+    .activities-flexdiv-2-container {
+        /* flex-direction: column; */
+        margin: 10px;
+        height: 45vh !important;
+    }
+}
+
 @media screen and (max-width: 1200px) {
 
     .mid-section {
@@ -1077,8 +1090,8 @@ li {
     
     .mid-section img {
         padding: 40px 10px;
-        height: 470px;
-        width: 490px;
+        /* height: 470px;
+        width: 490px; */
     }
 
     .activities-flexdiv-1 {
@@ -1170,13 +1183,13 @@ li {
 
 
 
-p a {
+/* p a {
     text-decoration: solid;
     font-weight: bold;
-}
-a:hover {
+} */
+/* a:hover {
     color:rgb(97, 181, 181);
-}
+} */
  @media (max-width:1300px ) {
 
     body {
@@ -1381,13 +1394,6 @@ font-size: 30px;
     margin: 10px;
 }
 
-/* .service1 {
-    width: 0%;
-} */
-
-/* .service h2 { */
-    /* color: #3aafa9; */
-
 .service ul {
     list-style-type: none;
     line-height: 1.8;
@@ -1463,17 +1469,16 @@ font-size: 30px;
 .images img {
     height: 300px;
     width: 32%;
-    margin: 5px;
+    margin: 5px 2px;
     border-radius: 3px;
 }
 
 .images img:hover {
-    transition: ease-in-out 200ms;
-    transform: scale(1.02);
+    transition: ease-in-out 500ms;
+    transform: scale(1.05);
 }
 
 .images {
-    /* padding: 3px; */
     margin: 50px auto;
 }
 
