@@ -302,8 +302,11 @@ li {
 
 /* Footer style ends here */
 
+
+    /* Header/Hero stuling code starts here */
 .hero {
-    background: url('https://img.freepik.com/free-photo/industrial-designers-working-3d-model_23-2149370169.jpg?uid=R63328520&ga=GA1.1.1370676899.1722375250&semt=ais_hybrid/1200x600') no-repeat center center/cover;
+    background-image: url(/images/headerimg.png);
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -354,7 +357,6 @@ li {
     color: rgb(198, 1, 1);
     margin-left: 250px;
     padding: 10px 20px;
-    font-weight: bold;
     border: none;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
@@ -370,6 +372,85 @@ li {
      color: white;
     transform: scale(1) 
 }
+
+    /* header style media query start here */
+    @media screen and (max-width: 600px) {
+        .hero {
+            background-image: url(/images/headerimg.png);
+            height: 400px !important;
+            width: 400px !important;
+            align-items: center;
+            margin: 0  auto;
+        }
+
+        .hero-text{ 
+            background-color:rgba(0, 0, 0, 0.6); 
+            margin-bottom: 100px;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            width: 85%;
+            height: 45%;
+            border-top: 5px solid rgb(109, 3, 125);
+            max-width: 700px;
+            padding: 0px;
+        }
+
+        .hero-text h1 {
+            font-size:large;
+            color: rgb(14, 205, 29);
+            margin-bottom: 20px;
+            margin-left: 10px ;
+            margin-top: 20px;
+        }
+        
+        .hero-text p{
+            font-size: 70%;
+            margin-left: 10px ;
+            margin-bottom: 15px;
+            /* margin-top: 0px; */
+        }
+        
+        .hero button{
+            padding: 2px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 100;
+            border: 2px solid rgb(14, 205, 29);
+            border-radius: 20px;
+            margin-left: 105px; 
+            
+            
+        }
+        
+        .readmore-button { 
+            text-decoration: none;
+            color: rgb(198, 1, 1);
+            padding: 10px 20px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.6);
+        } 
+          
+        .readmore-button a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        
+        .readmore-button:hover {
+             background-color: rgb(14, 205, 29); 
+             color: white;
+            transform: scale(1) 
+        }
+        
+        
+        } 
+
+    /* header style media query ends here */
+
+
+
+
  
 /* Index page start here  */
 
@@ -383,7 +464,96 @@ li {
     gap: 40px;
   }
   
+
+  .intro-text1 {
+    max-width: 500px;
+  }
   
+  .intro-text1 h1 {
+    margin-top: 20px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .intro-text1 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+
+
+  .bigdiv {
+    background-color: rgb(109, 3, 125);
+    width: max-content;
+    padding: 0 0 40px 40px;
+    margin: 80px;
+    height: 85vh;
+    width: 30vw;
+    position: relative;
+  
+
+}
+
+.bigdiv div {
+    bottom: 20px;
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+}
+  .bigdiv img {
+    transform: translateX(-50%);
+    animation: movement 3s infinite;
+  }
+@keyframes movement {
+    0% {
+        transform: translateY(0) ; 
+        margin-top: 90px;
+   
+    }
+    50% {
+        transform: translateY(10px);
+        margin-top: 90px;
+    }
+    100% {
+        transform: translateY(0);
+        margin-top: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(3, 125, 9);
+    box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 16px;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgb(109, 3, 125);
+    
+  }
+
   .intro-text {
     max-width: 500px;
   }
@@ -409,9 +579,9 @@ li {
     box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: 16px;
     border-radius: 100px;
-    border-style: dotted;
     transition: background-color 0.3s ease;
   }
   
@@ -419,7 +589,47 @@ li {
     background-color: rgb(109, 3, 125);
     
   }
+  /* Body image placement here */
+
+  .bigdiv {
+    background-color: rgb(109, 3, 125);
+    width: max-content;
+    padding: 0 0 40px 40px;
+    margin: 80px;
+    height: 85vh;
+    width: 30vw;
+    position: relative;
   
+
+}
+
+.bigdiv div {
+    bottom: 20px;
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+}
+  .bigdiv img {
+    transform: translateX(-50%);
+    animation: movement 3s infinite;
+  }
+@keyframes movement {
+    0% {
+        transform: translateY(0) ; 
+        margin-top: 90px;
+   
+    }
+    50% {
+        transform: translateY(10px);
+        margin-top: 90px;
+    }
+    100% {
+        transform: translateY(0);
+        margin-top: 90px;
+    }
+}
+
+/* Style for services page starts here */
   .services-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -430,7 +640,7 @@ li {
     background-color: #fff;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.111);
     text-align: center;
     transition: transform 0.3s ease;
   }
@@ -951,19 +1161,7 @@ li {
 }
 
 @media screen and (max-width: 700px) {
-    /* header {
-        display: none;
-    }
-
-    .top-section {
-        display: none;
-    }
-
-    .activities-text {
-        display: none;
-    } */
-
-    .mid-section {
+        .mid-section {
         padding: 10px !important;
     }
 
@@ -1100,7 +1298,7 @@ li {
 
 /* Style for Activities page ends here */
 
-/* Style for about us starts here */
+/* Style for  us starts here */
 
 
 .container {
@@ -1393,31 +1591,31 @@ font-size: 30px;
     line-height: 1.8;
 }
 .service-image{
-    max-width:100px;
-    height:auto;
-    border-radius:50%;
-    z-index:1000;
-    position:absolute;
-    left:35%;
-    top:103%;
-}
-.service-image2{
+    background: white;
+    /* padding: 1%; */
+    border-radius: 50%;
     max-width:100px;
     height:100px;
-    z-index:1000;
-    position:absolute;
-    left:58%;
-    top:103%;
+    margin: 0 auto;
+    align-self: center;
+}
+.service-image2{
+    background: white;
+    /* padding: 1%; */
+    border-radius: 50%;
+    max-width:100px;
+    height:100px;
+    margin: 0 auto;
+    align-self: center;
 }
 
 .bulb2{
     background: white;
-    display: inline-block;
-    padding: 1%;
+    /* padding: 1%; */
     border-radius: 50%;
-    position: absolute;
-    top: 103%;
-    left: 81%;
+    max-width:100px;
+    height:100px;
+    margin: 0 auto;
  }
 
  .working-hours li {
@@ -1448,13 +1646,9 @@ font-size: 30px;
     font-size: 0.9em;
     align-items: left;
  }
- @media screen  and (max-width: 900px) {
-    .services-content {
-        display: block;
-        width: 100%;
-    }
+ @media screen and (max-width: 950px) {
+    
  }
-
 /* Style for services page ends here */
 
 
