@@ -1644,8 +1644,7 @@ li {
 
 
 
- /* Style for services page starts here */
-
+/* Style for services page starts here */
 
 #hero{
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(25, 16, 27)), url(../images/man.jpg);
@@ -1662,12 +1661,12 @@ li {
     width: 20%;
     text-align: left;
 }
+
 .services-content {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    align-content: center;
-    
+    padding: 15px;
+    align-items: center;
 }
 
 .services-content > div {
@@ -1678,25 +1677,6 @@ li {
 .service ul {
     list-style-type: none;
     line-height: 1.8;
-}
-.service-image{
-    background: white;
-    /* padding: 1%; */
-    border-radius: 50%;
-    max-width:100px;
-    height:100px;
-    margin: 0 auto;
-    align-self: center;
-}
-.service-image2{
-    background: white;
-    /* padding: 1%; */
-    border-radius: 50%;
-    max-width:100px;
-    height:100px;
-    margin: 0 auto;
-    align-self: center;
-    padding: 22px;
 }
 
 .services-img-1, .services-img-2, .services-img-3 {
@@ -1715,7 +1695,7 @@ li {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    /* align-items: center; */
+    margin: 70px 0;
 }
 
 .services-flexdiv h2 {
@@ -1728,27 +1708,27 @@ li {
     align-self: center;
     margin: 0 auto;
     align-content: center;
-    /* background-color: purple; */
 }
 
 .working-hours li {
    margin: 10px 0;
    font-size: 15px;
    display: flex;
-   flex-direction: row;
    justify-content: space-between;
+   flex-direction: row;
    align-items: center;
 }
 
-.working-hours li :nth-child(2) {
-   margin-left: 20px;
-   font-size: 14px;
+.working-hours > li p {
+    font-size: 14px;
 }
+
 .working-hours hr {
    color: rgba(155, 154, 154, 0.904);
    width: 95%;
    margin: 0 auto;
 }
+
 .feature-list li{
    display: flex;
    gap: 15px;
