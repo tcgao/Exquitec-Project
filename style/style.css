@@ -555,34 +555,7 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-  
-  .btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: rgb(3, 125, 9);
-    box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
-    color: #fff;
-    text-decoration: none;
-    font-weight: lighter;
-    font-size: 16px;
-    border-radius: 100px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: rgb(109, 3, 125);
-    
-  }
-
-  .intro-text {
+  /* .intro-text {
     max-width: 500px;
   }
   
@@ -599,10 +572,11 @@ li {
     margin-bottom: 20px;
     color: #000000;
   }
-  
+   */
   .btn {
     display: inline-block;
     padding: 12px 24px;
+     background-color: rgb(109, 3, 125);
     background-color: rgb(3, 125, 9);
     box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
     color: #fff;
