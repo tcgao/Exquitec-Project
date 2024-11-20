@@ -676,29 +676,6 @@ li {
 #contact a:hover {
     color: #3e8e41;
 }
-    
-    /* #contact h1{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 80px;
-        color: #000;
-        text-align: center;
-        padding: 165px;
-        text-shadow: 1px 1px 0 black;
-    }
-    
-    #contact p  {
-        margin: 50px 0 30px 5px;
-        font-weight: bold;
-    } 
-    
-    #contact a {
-        color: #000;
-        font-size: 30px;
-    }
-    
-    #contact a:hover{
-        color: #ccc;
-    } */
 
 .contact-container {
     display: flex;
@@ -708,30 +685,20 @@ li {
 }
 
 #link  {
-    text-decoration: none;
-    color: #800080;
+    text-decoration: underline;
 }
-
-#link:hover{ 
-        background-color: #800080;
-        color: #fff;
-    }   
- 
-
 
 .contact-form {
     width: 45%;
     padding: 20px;
-    box-shadow: 5px 5px  10px #000;
+    border: 1px solid black;
     border-radius: 5px;
-    background-color: rgb(5, 242, 234);
 }
 
 .contact-info {
     width: 45%;
     padding: 20px;
-    background: linear-gradient(to left, purple 0%, rgb(5, 242, 234));
-    box-shadow: 10px 10px  15px #000;
+    border: 1px solid black;
     border-radius: 5px;
     height: fit-content;
 }
@@ -763,12 +730,17 @@ li {
 }
 
 .contact-form button {
-    background: linear-gradient(to left, purple 0%,rgb(5, 242, 234));
+    /* background: linear-gradient(to left, purple 0%,rgb(5, 242, 234)); */
     color: white;
+    background-color: black;
     padding: 10px 15px;
     border: 1px solid;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.contact-form button:hover {
+    color: aqua;
 }
 
 .contact-info p {
