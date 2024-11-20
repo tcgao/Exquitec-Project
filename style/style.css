@@ -1298,23 +1298,20 @@ li {
 
 /* Style for Activities page ends here */
 
-/* Style for  us starts here */
+/* Style for about us starts here */
 
 
-.container {
+ .container_1 {
     
-    background-image: url(/images/gallery-image-9.jpg );
+    background-image: url(/images/digital-citizenship.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    backdrop-filter:blur(3px);
-    
-   
-    
+    backdrop-filter:blur(3px);  
 
-}
+} 
 
 
-.container {
+.container_1 {
     margin: 0 auto;
     width: 100%;
 }
@@ -1414,6 +1411,7 @@ a:hover {
     
     
 }
+/* style for about us ends here  */
 } 
 
     /* Style Girls in tech page starts here  */
@@ -1787,3 +1785,4 @@ a:hover {
 }
 
 /* Style for gallery page ends here */
+
