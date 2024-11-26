@@ -476,8 +476,40 @@ li {
 
 
 
-  .bigdiv {
-    background-color: rgb(109, 3, 125);
+  .main-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+
+  .intro-text2 {
+    max-width: 500px;
+  }
+  
+  .intro-text2 h1 {
+    margin-top: 20px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .intro-text2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+
+
+
+  /* .bigdiv {
+    background-color: purple;
     width: max-content;
     padding: 0 0 40px 40px;
     margin: 80px;
@@ -485,7 +517,6 @@ li {
     width: 30vw;
     position: relative;
   
-
 }
 
 .bigdiv div {
@@ -493,12 +524,9 @@ li {
     overflow: hidden;
     clear: both;
     position: absolute;
-}
-  .bigdiv img {
-    transform: translateX(-50%);
-    animation: movement 3s infinite;
-  }
-@keyframes movement {
+} */
+
+/* @keyframes movement {
     0% {
         transform: translateY(0) ; 
         margin-top: 90px;
@@ -513,39 +541,12 @@ li {
         margin-top: 90px;
     }
 }
+ */
 
 
 
 
-
-
-
-
-
-
-
-
-
-  
-  .btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: rgb(3, 125, 9);
-    box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
-    color: #fff;
-    text-decoration: none;
-    font-weight: lighter;
-    font-size: 16px;
-    border-radius: 100px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: rgb(109, 3, 125);
-    
-  }
-
-  .intro-text {
+  /* .intro-text {
     max-width: 500px;
   }
   
@@ -562,10 +563,11 @@ li {
     margin-bottom: 20px;
     color: #000000;
   }
-  
+   */
   .btn {
     display: inline-block;
     padding: 12px 24px;
+     background-color: rgb(109, 3, 125);
     background-color: rgb(3, 125, 9);
     box-shadow: rgba(0, 0, 0, 0.211) 4px 4px 8px  ;
     color: #fff;
@@ -582,43 +584,7 @@ li {
   }
   /* Body image placement here */
 
-  .bigdiv {
-    background-color: rgb(109, 3, 125);
-    width: max-content;
-    padding: 0 0 40px 40px;
-    margin: 80px;
-    height: 85vh;
-    width: 30vw;
-    position: relative;
-  
 
-}
-
-.bigdiv div {
-    bottom: 20px;
-    overflow: hidden;
-    clear: both;
-    position: absolute;
-}
-  .bigdiv img {
-    transform: translateX(-50%);
-    animation: movement 3s infinite;
-  }
-@keyframes movement {
-    0% {
-        transform: translateY(0) ; 
-        margin-top: 90px;
-   
-    }
-    50% {
-        transform: translateY(10px);
-        margin-top: 90px;
-    }
-    100% {
-        transform: translateY(0);
-        margin-top: 90px;
-    }
-}
 
 /* Style for contact us page starts here */
 #contact {
@@ -1431,8 +1397,8 @@ li {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    box-sizing: content-box;
 } 
 .slideshow h2{
     text-align: center;
