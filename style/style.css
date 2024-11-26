@@ -620,43 +620,6 @@ li {
     }
 }
 
-/* Style for services page starts here */
-  .services-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  
-  .service-card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.111);
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .service-card:hover {
-    transform: scale(1.05);
-  }
-  
-  .service-card img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 15px;
-  }
-  
-  .service-card h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .service-card p {
-    font-size: 14px;
-    color: #777;
-  }
-
 /* Style for contact us page starts here */
 #contact {
     background-image: url(/images/background-img.jpg);
@@ -1691,6 +1654,10 @@ li {
 
 .working-hours > li p {
     font-size: 14px;
+}
+
+.working-hours li :nth-child(2) {
+    margin-left: 10px;
 }
 
 .working-hours hr {
