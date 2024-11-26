@@ -1468,8 +1468,8 @@ li {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    box-sizing: content-box;
 } 
 .slideshow h2{
     text-align: center;
