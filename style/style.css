@@ -1530,12 +1530,13 @@ li {
     margin-top: 20px;
 }
 .cont {
-    position: relative;
+    position: relative; bottom: 0;
     display: flex;
     align-self: center;
     width: auto;
     height: 300px;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 .tex {
     position: absolute;
@@ -1564,13 +1565,19 @@ li {
     transform: scale(1.1);
 }
 @media screen and (max-width: 900px) {
+    .cont{
+        position: relative; bottom: 0;
+        margin-bottom: 250px;
+        width: 90%;
+    }
     .cont img{
-    width: 85%;
+    width: 90%;
     height: 100%;
     margin-left: 12%;
     }
     .tex {
         margin-left: 12%;
+        width: 90%;
     }
     .head_1 h1 {
         font-size: 40px;
