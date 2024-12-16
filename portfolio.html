@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
-        <div class="hamburger">
+        <!-- <div class="hamburger">
             <button class="hamburger-button">
+                <a href="javascript:void(0);"></a>
                 <i class="fa-solid fa-bars" id="hamburger-icon"></i>
                 <p>Menu</p>
             </button>
@@ -26,32 +27,36 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact_us.html">Contact Us</a></li>
             </ul>
-        </div>
+        
+        </div> -->
         <a href="index.html">
             <img src="./images/logo.gif" alt="logo">
         </a>
         <div class="menu">
             <ul class="menu">
-                <li>
+                <li class="menu-li">
                     <a href="index.html">Home</a>
                     <span class="sideline">|</span>
                 </li>
-                <li>
+                <li class="menu-li">
                     <a href="about_us.html">About Us</a>
                     <span class="sideline">|</span>
                 </li>
-                </li>
-                <li>
+                <li class="menu-li">
                     <a href="services.html">Services</a>
                     <span class="sideline">|</span>
                 </li>
-                <li>
+                <li class="menu-li">
                     <a href="our_programs.html">Our Programs</a>
                     <span class="sideline">|</span>
                 </li>
                 <div class="dropdown">
-                    <button class="dropdown-button">More <i class="fa-solid fa-caret-down"></i></button>
+                    <button class="dropdown-button" id="dropdown-button">More <i class="fa-solid fa-caret-down"></i></button>
                     <ul class="dropdown-menu">
+                        <li class="dropdown-items"><a href="index.html">Home</a></li>
+                        <li class="dropdown-items"><a href="about_us.html">About us</a></li>
+                        <li class="dropdown-items"><a href="services.html">Services</a></li>
+                        <li class="dropdown-items"><a href="our_programs.html">Our Programs</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="steam.html">Steam</a></li>
                         <li><a href="activities.html">Activities</a></li>

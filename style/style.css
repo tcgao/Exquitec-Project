@@ -162,12 +162,37 @@ li {
     overflow: hidden;
 }
 
+.dropdown-items {
+    display: none;
+}
+
 @media only screen and (max-width: 950px) {
-    .menu {
+
+    header {
+        flex-direction: row-reverse;
+    }
+
+    .menu-li {
         display: none;
     }
 
-    .hamburger-button {
+    .dropdown {
+        display: block;
+        left: 0;
+    }
+
+    .dropdown-menu {
+        left: 0;
+        max-width: max-content !important;
+        width: max-content !important;
+        height: max-content;
+    }
+
+    .dropdown-items {
+        display: block;
+    }
+
+    /* .hamburger-button {
         display: flex;
         align-items: center;
     }
@@ -214,6 +239,10 @@ li {
     .hamburger-button:focus + .hamburger-menu {
         display: block;
     }
+
+    .dropdown:active {
+        display: block;
+    }
     
     .hamburger-button:hover {
         color: #3e8e41;
@@ -221,7 +250,7 @@ li {
     
     .hamburger-menu li:hover {
         color: #3e8e41;
-    }
+    } */
 }
 
 /* Header style ends here */
@@ -619,14 +648,14 @@ li {
 
 .contact-form {
     width: 45%;
-    padding: 20px;
+    padding: 40px 20px;
     border: 1px solid black;
     border-radius: 5px;
 }
 
 .contact-info {
     width: 45%;
-    padding: 20px;
+    padding: 30px 20px;
     border: 1px solid black;
     border-radius: 5px;
     height: fit-content;
@@ -1084,9 +1113,6 @@ li {
 }
 
 @media screen and (max-width: 950px) {
-    .activities-body {
-        max-width: 100%;
-    }
 
     .top-section {
         background-color: rgba(0,32,80,255);
@@ -1282,15 +1308,6 @@ li {
     
 }  
 
-
-
-/* p a {
-    text-decoration: solid;
-    font-weight: bold;
-} */
-/* a:hover {
-    color:rgb(97, 181, 181);
-} */
 @media (max-width:1300px ) {
     body {
        align-items: center;
@@ -1352,7 +1369,7 @@ li {
 /* style for about us ends here  */
 } 
 
-    /* Style Girls in tech page starts here  */
+/* Style for Girls in tech page starts here  */
 #h1 {
     text-align: center;
     color: #000;
@@ -1455,7 +1472,7 @@ li {
         margin-bottom: 10px;
     }
 }
-/* Style Girls in tech page ends here  */
+/* Style for Girls in tech page ends here  */
 
   /* Style for Digital citizenship starts here */
   .head_1 {

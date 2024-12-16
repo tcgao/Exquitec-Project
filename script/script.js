@@ -28,8 +28,24 @@ hamburgerButton.addEventListener('click', () => {
 hamburgerMenu.addEventListener('click', (drop) => {
   const menuItem = drop.target;
 
-  if (menuItem.tagName === 'A') {
-    drop.preventDefault();
+  // if (menuItem.tagName === 'A') {
+  //   drop.preventDefault();
+  // }
+  // hamburgerMenu.classList.remove('show');
+});
+
+function myFunction(media) {
+  let hamburger = document.getElementById("dropdown-button");
+  if (media.matches) { 
+    hamburger.innerHTML = `<i class="fa-solid fa-bars" id="hamburger-icon"></i>`;
   }
-  hamburgerMenu.classList.remove('show');
+}
+
+var match = window.matchMedia("(max-width: 950px)");
+
+
+myFunction(match);
+
+x.addEventListener("change", function() {
+  myFunction(x);
 });
