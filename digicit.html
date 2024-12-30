@@ -2,13 +2,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Exquitec</title>
+    <title>DIGICIT</title>
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/fontawesome/css/all.css">
+    <script src="/script/script.js"></script>
 </head>
 <body>
     <header>
-        <div class="hamburger">
+        <!-- <div class="hamburger">
             <button class="hamburger-button">
+                <a href="javascript:void(0);"></a>
                 <i class="fa-solid fa-bars" id="hamburger-icon"></i>
                 <p>Menu</p>
             </button>
@@ -23,32 +26,36 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact_us.html">Contact Us</a></li>
             </ul>
-        </div>
+        
+        </div> -->
         <a href="index.html">
             <img src="./images/logo.gif" alt="logo">
         </a>
         <div class="menu">
             <ul class="menu">
-                <li>
+                <li class="menu-li">
                     <a href="index.html">Home</a>
                     <span class="sideline">|</span>
                 </li>
-                <li>
+                <li class="menu-li">
                     <a href="about_us.html">About Us</a>
                     <span class="sideline">|</span>
                 </li>
-                </li>
-                <li>
+                <li class="menu-li">
                     <a href="services.html">Services</a>
                     <span class="sideline">|</span>
                 </li>
-                <li>
+                <li class="menu-li">
                     <a href="our_programs.html">Our Programs</a>
                     <span class="sideline">|</span>
                 </li>
                 <div class="dropdown">
                     <button class="dropdown-button" id="dropdown-button">More <i class="fa-solid fa-caret-down"></i></button>
                     <ul class="dropdown-menu">
+                        <li class="dropdown-items"><a href="index.html">Home</a></li>
+                        <li class="dropdown-items"><a href="about_us.html">About us</a></li>
+                        <li class="dropdown-items"><a href="services.html">Services</a></li>
+                        <li class="dropdown-items"><a href="our_programs.html">Our Programs</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="steam.html">Steam</a></li>
                         <li><a href="activities.html">Activities</a></li>
@@ -59,46 +66,31 @@
             </ul>
         </div>
     </header>
-
-    <div class="head_1">
+    <div id="headi">
         <h1>DIGITAL CITIZENSHIP</h1>
-        <div class="our">
-            <a href="/our_programs.html">Our Programes</a>
+        <div id="our">
+            <a href="/Documents/Tc gao/our_programs" id="reff">Our Programes</a>
             /
             Digital citizenship
         </div>
     </div>
-    <div class="emb">
-        <h3>Permit us to walk you around digicit &darr;</h3>
+    <div id="emb">
+        <h3>Permit us to walk you around digicit</h3>
     </div>
-    <div class="cont">
-        <img src="images/lady.jpg" alt="">
-        <div class="tex">
-            <p>
-                One of the most important 21st Century skills is digital citizenship.
-                All students need to develop their digital citizenship skills to fully engage in their communities and make informed decisions both online and off.
-            </p>
-            <p>
-                Digital citizenship refers to the responsible use of technology by anyone who uses computers, the Internet, and digital devices to engage with society on any level. 
-                As the rate of technological advancement continues to increase, the world as a whole is becoming more dependent on the Internet for day-to-day activities.
-            </p>
-            <p>
-                Good digital citizenship teaches kids how to use digital tools to communicate with one another, empathize with one another, and build long-lasting connections. 
-                On the other hand, poor digital citizenship includes things like cyber bullying, careless social media use, and a general ignorance of safe Internet usage practices.
-            </p>
-            <p>
-                As DigCit guards,  Exquitec Education Technology teaches students how to be good digital citizens. 
-                The students were shown the importance of empathy, how the Internet works, how they can secure their computers and smartphones, and ultimately, why they need to use digital devices in moderation. 
-                Such a fulfilling time engaging the students on digital literacy, ethics, etiquette, online safety, norms, rights, culture and more.
-            </p>
+    <div id="main">
+        <div id="cont">
+            <div id="tex"></div>
         </div>
     </div>
-<!-- <a href="https://wa.me/2348059243671" class="whatsapp-button" target="_blank">
-  <i class="fa-brands fa-whatsapp"></i>
-</a> -->
+    <div>
+        <a id="wa" href="https://wa.me/2348059243671" class="whatsapp-button" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
     <hr>
     <div class="footer">
         <p>Exquitec <span>2024 Created by </span><span>OSF STUDENTS</span></p>
     </div>
+    <script src="/style/digicit.js"></script>
 </body>
 </html>
