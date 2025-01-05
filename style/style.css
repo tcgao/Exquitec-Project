@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
     max-width: 100%;
     zoom: normal;
 }
@@ -286,6 +285,22 @@ li {
         z-index: 9999;
     }
 }
+/* media query for digital citizenship starts here */
+/* #cont {
+    margin-bottom: 80px;
+}
+@media screen and (max-width: 950px) {
+    #cont {
+        margin-bottom: 200px;
+        width: 90%;
+    }
+    
+    #main {
+        margin-bottom: 12%;
+        width: 90%;
+    }
+} */
+/* Media query for digital citizenship ends here */
 
 /* Footer style starts here */
 
@@ -1350,24 +1365,7 @@ li {
 
 /* Style Girls in tech page ends here  */
 
-/* Style for Digital citizenship starts here */
-.head_1 {
-.content_img {
-    transition: 2s ease-out;
-    
-}
-.content_img {
-    transform: scale(1.1);
-}
-.content_img  img{
-    height: 250px;
-    width: 330px;
-    margin: auto;
-    
-    
-}
 /* style for about us ends here  */
-} 
 
 /* Style for Girls in tech page starts here  */
 #h1 {
@@ -1473,99 +1471,6 @@ li {
     }
 }
 /* Style for Girls in tech page ends here  */
-
-  /* Style for Digital citizenship starts here */
-  .head_1 {
-    justify-items: center;
-    background-image: url(/images/gallery-image-33.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-sizing: border-box;
-    color: white;
-    text-shadow: 3px 3px 0 black;
-    height: 45%;
-}
-.head_1 h1 {
-    font-size: 60px;
-    padding-top: 50px;
-}
-
-.our {
-    margin-top: 50px;
-    font-size: 30px;
-}
-
-.our a {
-    color: white;
-    text-decoration: none;
-    text-shadow: 3px 3px 0 black;
-}
-
-.our a:hover {
-    color: rgba(180, 246, 180, 0.58);
-}
-.emb {
-    justify-items: center;
-    margin-top: 20px;
-}
-.cont {
-    position: relative; bottom: 0;
-    display: flex;
-    align-self: center;
-    width: auto;
-    height: 300px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-}
-.tex {
-    position: absolute;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-    width: 82%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-.cont img {
-    width: 82%;
-    height: 100%;
-    background-color: white;
-    margin-left: 11%;
-    display: block;
-    object-fit: cover;
-    border-radius: 15px;
-}
-.cont:hover .tex {
-    opacity: 1;
-}
-.cont:hover img {
-    opacity: 0;
-    transform: scale(1.1);
-}
-@media screen and (max-width: 900px) {
-    .cont{
-        position: relative; bottom: 0;
-        margin-bottom: 250px;
-        width: 90%;
-    }
-    .cont img{
-    width: 90%;
-    height: 100%;
-    margin-left: 12%;
-    }
-    .tex {
-        margin-left: 12%;
-        width: 90%;
-    }
-    .head_1 h1 {
-        font-size: 40px;
-    }
-}
- /* Style for Digital citizenship ends here */
-
-
 
 /* Style for services page starts here */
 
