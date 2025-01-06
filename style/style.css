@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
+    font-family: sans-serif;
     zoom: normal;
 }
 
@@ -23,6 +24,7 @@ header {
     top: 0;
     z-index: 9999;
     max-width: 100%;
+    /* font-family: sans-serif; */
 }
 
 .menu {
@@ -1363,7 +1365,6 @@ li {
 }
 
 
-/* Style Girls in tech page ends here  */
 
 /* style for about us ends here  */
 
@@ -1682,3 +1683,18 @@ li {
 }
 /* Style for gallery page ends here */
 
+/* Style for digitcit page starts here */
+
+#emb > h3 {
+    font-family: Courier New, Courier, monospace !important;
+}
+
+/* Style for digitcit page ends here */
+
+/* Style for steam page starts here */
+
+hehe {
+    background-color: #359cc4;
+}
+
+/* Style for steam page ends here */
