@@ -1693,8 +1693,192 @@ li {
 
 /* Style for steam page starts here */
 
-hehe {
-    background-color: #359cc4;
+.steam-top {
+    background-color: #359cc4 !important;
+    /* background-image: url(../images/exquitecpictures/49682643_1969569303346677_2369683948562284544_o-300x225.jpg); */
+    background-repeat: no-repeat;
+    /* background-size: 100% 60vh; */
+    width: 100%;
+}
+
+.steam-flexdiv {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.steam-flexdiv-firdiv {
+    max-width: 50%;
+    max-height: max-content;
+}
+
+.steam-bigfont {
+    font-family: Times, 'Times New Roman', serif;;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.steam-smallfont {
+    font-family: serif;
+    color: grey;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.steam-under {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.steam-under-border {
+    border-left: 5px solid orange;
+}
+
+.steam-under-smallfont {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    color: grey;
+}
+
+.etw {
+    margin: 0 100px;
+}
+
+.steam-apply-button {
+    width: max-content;
+    margin: 30px auto;
+}
+
+.steam-apply-button a {
+    background-color: #e2e2e2;
+    color: rgb(65, 64, 64);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 7px;
+}
+
+.steam-apply-button a:hover {
+    background-color: rgb(172, 172, 172);
+    transition: ease-in-out 200ms;
+}
+
+.steam-flexdiv-imgdiv img {
+    height: 450px;
+    width: 500px;
+}
+
+.steam-rem-imgs {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    max-height: max-content;
+    padding: 2px;
+}
+
+.strem-img1et3 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.strem-img2et4 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.strem-img1, .strem-img3 {
+    height: 380px;
+    width: 450px;
+    margin: 10px;
+    top: 0;
+}
+
+.strem-img2 {
+    top: 0;
+    height: 460px;
+    width: 720px;
+    margin: 10px;
+}
+
+.strem-img4 {
+    top: 0;
+    height: 300px;
+    width: 720px;
+    margin: 10px;
+}
+
+.strem-img1et3, .strem-img2et4 {
+    cursor: zoom-in;
+    transition: 0.3s ease;
+}
+
+/* .steam-rem-imgs:hover, .strem-img1, .strem-img2, .strem-img3, .strem-img4 {
+    transform: scale(1.2);
+} */
+
+@media screen and (max-width: 1200px) {
+    .steam-rem-imgs {
+        margin: 0 100px;
+        justify-content: space-evenly;
+    }
+
+    .steam-rem-imgs img {
+        height: 380px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .steam-rem-imgs {
+        margin: 0 70px;
+        justify-content: space-evenly;
+    }
+
+    .steam-rem-imgs img {
+        height: 380px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .steam-flexdiv {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .steam-flexdiv-firdiv {
+        max-width: 100%;
+    }
+
+    .steam-rem-imgs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .steam-rem-imgs img {
+        height: 380px;
+        width: 450px;
+    }
+
+    .etw {
+        margin: 0;
+    }
+
+    .strem-img1, .strem-img2, .strem-img3, .strem-img4 {
+        margin: 10px 0;
+    }
 }
 
 /* Style for steam page ends here */
