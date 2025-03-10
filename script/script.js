@@ -38,7 +38,7 @@ function myFunction(media) {
   let hamburger = document.getElementById("dropdown-button");
   if (media.matches) { 
     hamburger.innerHTML = `<i class="fa-solid fa-bars" id="hamburger-icon"></i>`;
-  }
+  } 
 }
 
 var match = window.matchMedia("(max-width: 950px)");
